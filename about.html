@@ -12,91 +12,18 @@
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-      .bd-mode-toggle {
-        z-index: 1500;
+     .container-fluid {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 900px 
       }
     </style>
 
     
   </head>
-  <body>
-<div class="col-lg-8 mx-auto pl-4 pr-4 pb-4">
-  <div class="mx-3">
-  
-    <main>
-
-    <div class="container mx-2">
-      <header class=" pb-3">
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
+  <body style="background-color: rgb(232, 232, 232);">
+    <div class="container-fluid">
+      <nav class="navbar  navbar-dark bg-dark px-3">
           <a class="navbar-brand" href="index.html">IMMA Deep Viewpoints</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -120,164 +47,158 @@
               </li>
             </ul>
           </div>
-        </div>
       </nav>
-      </header>
 
-    
-      <h2 class="text-body-emphasis" id="about">About</h2>
+      <div class="px-3 pt-3 bg-white" style="width: 100%;">
 
-      <p class="fs-5">
-        Available scripts are shown on the homepage of Deep Viewpoints. Scripts can be searched based on related exhibitions, artworks, themes or authors. Deep Viewpoints separates following a script from viewing the responses of others. This is to promote a diversity of responses, encouraging the visitor to take part for themselves without being overly influenced by other people's perspectives.
-      </p>
-      
-      <div class="row align-items-end mb-3">
-        <div class="col-lg-8">
-          <div class="row">
-            <img src="dv-home.png" alt="A script shown on the Deep Viewpoints homepage" style="width: 100%">
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <span class="ml-2">A script shown on the Deep Viewpoints homepage. The visitor can choose to view the script and/or see other people's responses to the script.</span>
-          </div>
-        </div>
-      </div>
-      <p class="fs-5">
-        Each of the stages that comprise a script can be one of four types. A statement stage provides information and does not request any input from the follower of the script. A question stage asks a single question, for example about one or more artworks, to which the script follower can provide a response. A help text can also optionally be associated with the question which the visitor can choose to reveal for further assistance. 
-      </p>
-      <div class="row align-items-end mb-3">
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col">
-              <img src="bqbc.png" alt="A statement stage" style="width: 100%">
+        <h2 class="text-body-emphasis" id="about">About</h2>
+
+        <p class="fs-5">
+          Available scripts are shown on the homepage of Deep Viewpoints. Scripts can be searched by related exhibitions, artworks, themes or authors. Deep Viewpoints separates following a script from viewing the responses of others. This is to promote a diversity of responses, encouraging the visitor to take part for themselves without being overly influenced by other people's perspectives.
+        </p>
+        
+        <div class="row align-items-end mb-3">
+          <div class="col-lg-8">
+            <div class="row">
+              <img src="dv-home.png" alt="A script shown on the Deep Viewpoints homepage" style="width: 100%">
             </div>
-            <div class="col">
-              <img src="ncp.png" alt="A question stage" style="width: 100%">
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <span class="ml-2">A script shown on the Deep Viewpoints homepage. The visitor can choose to view the script and/or see other people's responses to the script.</span>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <span class="ml-2">A statement stage (left) and a question stage (right).</span>
-          </div>
-        </div>
-      </div>
-      <p class="fs-5">
-        A multi-question stage asks a set of questions about the same artworks. The author of the script can decide whether to present the questions in a predefined sequence or to be shuffled in a random order. A multi-question stage has an optional help text that can provide additional guidance on how to answer the questions (e.g. look slowly at the artwork from left to right) or who the questions are for (e.g. these questions are for anyone who has had a particular experience in their lives). A story stage provides a story stem or story opener and instructions on how to continue the story. 
-      </p>
-
-      <div class="row align-items-end mb-3">
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col">
-              <img src="hyag.png" alt="A multi-question stage" style="width: 100%">
-            </div>
-            <div class="col">
-              <img src="sjh.png" alt="A story stage" style="width: 100%">
+        <p class="fs-5">
+          Each of the stages that comprise a script can be one of four types. A statement stage provides information and does not request any input from the follower of the script. A question stage asks a single question, for example about one or more artworks, to which the script follower can provide a response. A help text can be associated with the question, which the visitor can reveal for further assistance. 
+        </p>
+        <div class="row align-items-end mb-3">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col">
+                <img src="bqbc.png" alt="A statement stage" style="width: 100%">
+              </div>
+              <div class="col">
+                <img src="ncp.png" alt="A question stage" style="width: 100%">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <span class="ml-2">A multi-question stage (left) and a story stage (right).</span>
-          </div>
-        </div>
-      </div>
-
-      <p class="fs-5">
-        In collaboration with the <a class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover" href="https://polifonia-project.eu">EU H2020 Polifonia project</a>, Deep Viewpoints has been extended to support music as well as visual art. This was to enable cross-modal experiences exploring how music affects what you see in visual art and conversely how visual art affects what you hear in music.        
-      </p>
-      <div class="row align-items-end mb-3">
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col">
-              <img src="eknm.png" alt="A script stage asking about how an artwork sounds" style="width: 100%">
-            </div>
-            <div class="col">
-              <img src="bu.png" alt="A script stage suggesting about how an artwork might sound" style="width: 100%">
+          <div class="col-lg-4">
+            <div class="row">
+              <span class="ml-2">A statement stage (left) and a question stage (right).</span>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <span class="ml-2">Scripts exploring the relationship between visual art and music.</span>
-          </div>
-        </div>
-      </div>
+        <p class="fs-5">
+          A multi-question stage asks a set of questions about the same artworks. The author of the script can decide whether to present the questions in a predefined sequence or to be shuffled in a random order. A multi-question stage has an optional help text that can provide guidance on how to answer the questions (e.g. look slowly at the artwork from side to side) or who the questions are for (e.g. these questions are for anyone who has lived in another country). A story stage provides a story stem or story opener and instructions on how to continue the story. 
+        </p>
 
-      <p class="fs-5">
-        Responses to a script are shown in the style of a question-and-answer interview. The visitor can like any responses that they read.  
-      </p>
-      <div class="row align-items-end mb-3">
-        <div class="col-lg-8">
-          <div class="row">
-            <img src="dv-responses.png" alt="Responses to a script" style="width: 100%">
+        <div class="row align-items-end mb-3">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col">
+                <img src="hyag.png" alt="A multi-question stage" style="width: 100%">
+              </div>
+              <div class="col">
+                <img src="sjh.png" alt="A story stage" style="width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <span class="ml-2">A multi-question stage (left) and a story stage (right).</span>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <span class="ml-2">Responses to a script shown in the style of a question-and-answer interview.</span>
-          </div>
-        </div>
-      </div>
 
-      <p class="fs-5">
-        Deep Viewpoints can be used by citizen curators to develop and share their own scripts. First, a user can build their own personal selection of works by searching the IMMA collection. 
-      </p>
-      <div class="row align-items-end mb-3">
-        <div class="col-lg-8">
-          <div class="row">
-            <img src="dv-artworks.png" alt="Artworks page of Deep Viewpoints" style="width: 100%">
+        <p class="fs-5">
+          In collaboration with the <a class="link-primary link-underline-opacity-0 link-underline-opacity-100-hover" href="https://polifonia-project.eu">EU H2020 Polifonia project</a>, Deep Viewpoints has been extended to support music as well as visual art. This was to enable cross-modal experiences exploring how music affects what you see in visual art and conversely how visual art affects what you hear in music.        
+        </p>
+        <div class="row align-items-end mb-3">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col">
+                <img src="eknm.png" alt="A script stage asking about how an artwork sounds" style="width: 100%">
+              </div>
+              <div class="col">
+                <img src="bu.png" alt="A script stage suggesting about how an artwork might sound" style="width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <span class="ml-2">Scripts exploring the relationship between visual art and music.</span>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <span class="ml-2">Building a personal selection of artworks from the IMMA collection.</span>
-          </div>
-        </div>
-      </div>
 
-      <p class="fs-5">
-        The selected artworks can then be used in script authoring. Each script can be associated with any number of the personally selected works. A script is created as a sequence of stages. Zero or more artworks can be presented in each stage.
-      </p>
-      <div class="row align-items-end mb-3">
-        <div class="col-lg-8">
-          <div class="row">
-            <img src="dv-authoring.png" alt="Script authoring page of Deep Viewpoints" style="width: 100%">
+        <p class="fs-5">
+          Responses to a script are shown in the style of a question-and-answer interview. The visitor can like any responses that they read.  
+        </p>
+        <div class="row align-items-end mb-3">
+          <div class="col-lg-8">
+            <div class="row">
+              <img src="dv-responses.png" alt="Responses to a script" style="width: 100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <span class="ml-2">Responses to a script shown in the style of a question-and-answer interview.</span>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <span class="ml-2">Authoring a script as a sequence of stages.</span>
+
+        <p class="fs-5">
+          Deep Viewpoints can be used by citizen curators to develop and share their own scripts. First, a user can build their own personal selection of works by searching the IMMA collection. 
+        </p>
+        <div class="row align-items-end mb-3">
+          <div class="col-lg-8">
+            <div class="row">
+              <img src="dv-artworks.png" alt="Artworks page of Deep Viewpoints" style="width: 100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <span class="ml-2">Building a personal selection of artworks from the IMMA collection.</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <p class="fs-5">
-        Script authors can moderate which responses to their script are published on Deep Viewpoints. If logged into the application, users maintain control over their responses to the scripts, and can delete or edit them at any time. An edited response that had previously been approved may return to the moderation queue for consideration by the script author. The application therefore provides each user control over their own contributions within the space of citizen curated content, whether authoring or responding to scripts.
-      </p>
-
-      <div class="row text-center mt-5">
-        <div class="col text-center">
-          <a href="https://spice.kmi.open.ac.uk/demos/imma-slow-looking/home" class="btn btn-warning mb-3" role="button" style="min-width: 14em">IMMA Deep Viewpoints <i class='fa fa-link'></i></a>
+        <p class="fs-5">
+          The selected artworks can then be used in script authoring. Each script can be associated with any number of the personally selected works. A script is created as a sequence of stages. Zero or more artworks can be presented in each stage.
+        </p>
+        <div class="row align-items-end mb-3">
+          <div class="col-lg-8">
+            <div class="row">
+              <img src="dv-authoring.png" alt="Script authoring page of Deep Viewpoints" style="width: 100%">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <span class="ml-2">Authoring a script as a sequence of stages.</span>
+            </div>
+          </div>
         </div>
-      </div>
+
+        <p class="fs-5">
+          Script authors can moderate which responses to their script are published on Deep Viewpoints. If logged into the application, users maintain control over their responses to the scripts, and can delete or edit them at any time. An edited response that had previously been approved may return to the moderation queue for consideration by the script author. The application therefore provides each user control over their own contributions within the space of citizen curated content, whether authoring or responding to scripts.
+        </p>
+
+        <div class="row text-center py-4">
+          <div class="col text-center">
+            <a href="https://spice.kmi.open.ac.uk/demos/imma-slow-looking/home" class="btn btn-warning mb-3" role="button" style="min-width: 14em">IMMA Deep Viewpoints <i class='fa fa-link'></i></a>
+          </div>
+        </div>
   
 
-
-      <footer class="pt-3 my-5 text-body-secondary border-top">
+      </div>
+      <footer class="py-3 px-3 text-body-secondary border-top bg-light">
         Paul Mulholland &middot; 2023
       </footer>
-    </main>
-    </div>  
-
-  </div>
-</div>
-
+      
+    </div>
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      
   </body>
 </html>
